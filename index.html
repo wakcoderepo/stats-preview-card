@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <div class="card">
+      <div class="card-content">
+        <div class="desc-container">
+          <h1 class="card-title">Get <span>insights</span> that help your business grow.</h1>
+          <p class="card-desc">Discover the benefits of data analytics and make better decisions regarding revenue,
+            customer experience, and overall efficiency.</p>
+        </div>
+
+        <div class="stat">
+          <div class="stat-container">
+            <p class="stat-number">10k+</p>
+            <p class="stat-id">companies</p>
+          </div>
+          <div class="stat-container gaps">
+            <p class="stat-number">314</p>
+            <p class="stat-id">templates</p>
+          </div>
+          <div class="stat-container">
+            <p class="stat-number">12M+</p>
+            <p class="stat-id">queries</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-img">
+        <picture>
+          <source media="(max-width: 600px )" srcset="/images/image-header-mobile.jpg">
+          <img src="/images/image-header-desktop.jpg" alt="header">
+        </picture>
+        <div class="overlay"></div>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
